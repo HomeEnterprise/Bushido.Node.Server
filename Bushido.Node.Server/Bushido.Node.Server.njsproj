@@ -20,7 +20,7 @@
     <ProjectGuid>{141838f7-4cc2-409b-8a7c-3763e4594b01}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>bin\www</StartupFile>
+    <StartupFile>www</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -66,6 +66,7 @@
     <Content Include="views\error.ejs" />
     <Content Include="views\index.ejs" />
     <Content Include="views\index.html" />
+    <Content Include="www" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="app.js" />
