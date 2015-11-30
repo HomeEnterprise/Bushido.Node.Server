@@ -67,7 +67,6 @@
     <Content Include="tsd.json" />
     <Content Include="views\error.ejs" />
     <Content Include="views\index.ejs" />
-    <Content Include="views\index.html" />
     <Content Include="Web.config" />
     <None Include="Web.Debug.config" />
     <Content Include="www" />
