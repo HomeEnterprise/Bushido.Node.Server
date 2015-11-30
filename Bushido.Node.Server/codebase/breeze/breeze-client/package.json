@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "breeze-client@*",
+      "C:\\Developper\\NodeBreeze\\NodeBreeze\\node_modules\\breeze-sequelize"
+    ]
+  ],
+  "_from": "breeze-client@*",
+  "_id": "breeze-client@1.5.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/breeze-client",
+  "_npmUser": {
+    "email": "BreezeClub@ideablade.com",
+    "name": "ideablade"
+  },
+  "_npmVersion": "1.4.23",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "breeze-client",
+    "raw": "breeze-client@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/breeze-sequelize"
+  ],
+  "_resolved": "https://registry.npmjs.org/breeze-client/-/breeze-client-1.5.5.tgz",
+  "_shasum": "6aca1b0980bbde61c9934221ab764799f171eb54",
+  "_shrinkwrap": null,
+  "_spec": "breeze-client@*",
+  "_where": "C:\\Developper\\NodeBreeze\\NodeBreeze\\node_modules\\breeze-sequelize",
+  "author": {
+    "email": "jayt@ideablade.com",
+    "name": "Jay Traband"
+  },
+  "dependencies": {},
+  "description": "Breeze Javascript client",
+  "devDependencies": {
+    "event-stream": "^3.2.1",
+    "gulp": "^3.8.7",
+    "gulp-changed": "^1.0.0",
+    "gulp-shell": "^0.2.9"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6aca1b0980bbde61c9934221ab764799f171eb54",
+    "tarball": "http://registry.npmjs.org/breeze-client/-/breeze-client-1.5.5.tgz"
+  },
+  "engines": {
+    "node": ">= 0.6.6"
+  },
+  "homepage": "http://www.breezejs.com",
+  "jspm": {
+    "directories": {
+      "lib": "build"
+    },
+    "format": "global"
+  },
+  "license": "MIT",
+  "main": "breeze.debug",
+  "maintainers": [
+    {
+      "name": "jtraband",
+      "email": "jayt@ideablade.com"
+    },
+    {
+      "name": "ideablade",
+      "email": "BreezeClub@ideablade.com"
+    }
+  ],
+  "name": "breeze-client",
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.5.5"
+}
