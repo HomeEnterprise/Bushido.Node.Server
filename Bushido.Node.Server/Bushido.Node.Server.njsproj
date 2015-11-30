@@ -12,6 +12,7 @@
     <SccProvider>SAK</SccProvider>
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
+    <NameOfLastUsedPublishProfile>BushidoNodeServer</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -20,7 +21,7 @@
     <ProjectGuid>{141838f7-4cc2-409b-8a7c-3763e4594b01}</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>www</StartupFile>
+    <StartupFile>bin\www</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -56,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\www" />
+    <None Include="BushidoNodeServer.pubxml" />
     <Content Include="codebase\breeze\breeze-client\package.json" />
     <Content Include="codebase\breeze\breeze-client\README.md" />
     <Content Include="codebase\breeze\breeze-sequelize\package.json" />
@@ -66,6 +68,8 @@
     <Content Include="views\error.ejs" />
     <Content Include="views\index.ejs" />
     <Content Include="views\index.html" />
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config" />
     <Content Include="www" />
   </ItemGroup>
   <ItemGroup>
